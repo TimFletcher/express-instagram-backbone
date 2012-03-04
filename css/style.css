@@ -1,0 +1,26 @@
+html {
+  background: #3A6682 url(/img/bg_noise.png);
+  font-family: sans-serif;
+}
+#main {
+  margin: 0 auto; position: relative;
+}
+#container {
+  width: 600px; margin: 0 auto; text-align: center;
+}
+#container nav {
+  background-color: #FFFFFF; padding: 10px; margin-bottom: 8px;
+}
+#container nav a {
+  text-decoration: none;
+}
+#authorize {
+  display: inline-block; text-align: center;
+  width: 200px; padding: 10px; margin: 0 90px; background-color: #FFFFFF;
+}
+.photo {
+  float: left
+}
+.photo img {
+  display: block;
+}

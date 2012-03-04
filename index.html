@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Backbone Boilerplate</title>
+</head>
+
+<body>
+
+<div id="container">
+  <nav>
+    <a href="#popular">Popular</a> &bull;
+    <a href="#your_photos">Your Stream</a> &bull;
+    <a href="#your_friends">Your Friends</a>
+  </nav>
+  <div id="main">
+  </div>
+</div>
+  <!-- Libraries -->
+  <script src="js/libs/jquery-1.7.1.js"></script>
+  <script src="js/libs/underscore.js"></script>
+  <script src="js/libs/backbone.js"></script>
+
+  <!-- Application -->
+  <script src="js/application.js"></script>
+
+  <script type="template/underscore" id="photo_container">
+    <h1>This is the container</h1>
+  </script>
+
+  <script type="template/underscore" id="authentication">
+    <p>Instagram uses OAuth to allow this app to access your photos</p>
+    <a href="{{ authorizationUrl }}" id="authorize">Authorize my account</a>
+  </script>
+</body>
+</body>
+</html>
